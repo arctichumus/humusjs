@@ -34,7 +34,6 @@ describe('Typography', () => {
 
   it('applies correct case style based on upperCase prop', () => {
     const { container } = render(<Typography upperCase={true} />);
-    console.log(container.firstChild)
     expect(container.firstChild).toHaveClass('typography--upper-case');
   });
 
