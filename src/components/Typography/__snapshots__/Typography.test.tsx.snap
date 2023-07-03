@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography matches snapshot 1`] = `
+<h2
+  class="typography typography__Subheader"
+  style="color: rgb(0, 0, 0); text-align: center;"
+/>
+`;

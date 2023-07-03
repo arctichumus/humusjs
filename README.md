@@ -5,6 +5,8 @@ HumusJS is a JavaScript component library.
 Just import it from the packages =)
 
 ## How to contribute
+First of all run `npm install`
+
 1. Create new branch
 2. Add new component folder to the `src/components` directory.
 3. Add COMPONENT.tsx, COMPONENT.(s)css, COMPONENT.test.tsx, COMPONENT.stories.tsx and index.ts to the newly created folder.
