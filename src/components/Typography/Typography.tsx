@@ -27,6 +27,7 @@ const Typography = ({
   className,
   children
 }: TextProps) => {
+
   const WrapperTag = variant;
   const tagEnumName = useMemo(() => getKeyByValue(TypographyVariant, variant), [variant]);
 
