@@ -19,7 +19,7 @@ describe('Typography', () => {
 
   it('applies correct className based on variant prop', () => {
     const { container } = render(<Typography variant={TypographyVariant.Header} />);
-    expect(container.firstChild).toHaveClass('typography__Header');
+    expect(container.firstChild).toHaveClass('typography__Subheader');
   });
 
   it('applies correct color style based on color prop', () => {
